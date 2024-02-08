@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ES\CQRS.Core\CQRS.Core.csproj" />
+    <ProjectReference Include="..\..\Lease.Common\Lease.Common.csproj" />
+  </ItemGroup>
+
+</Project>

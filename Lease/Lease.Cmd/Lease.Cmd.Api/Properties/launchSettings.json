@@ -1,0 +1,33 @@
+{
+  "profiles": {
+    "Lease.Cmd.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KAFKA_TOPIC": "LeaseLifeCyle"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5012"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "KAFKA_TOPIC": "LeaseLifeCyle"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:19711",
+      "sslPort": 0
+    }
+  }
+}
